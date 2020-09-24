@@ -1,0 +1,220 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	height: 100%;
+}
+
+#nav {
+	background-color: #212020;
+	text-align: center;
+	width: 100%;
+}
+
+#opcao {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: arial;
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	height: 50px;
+}
+
+#banner {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20%;
+	line-height: 20px;
+}
+
+#corpo {
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#corpo_meio {
+	height: 100%;
+	width: 60%;
+	border-radius: 10px;
+	background-image: url("imagem.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#corpo2 {
+	text-align: center;
+	width: 100%;
+	color: white;
+	margin-bottom: 150px;
+	font-family: arial;
+	font-size: 20px;
+}
+
+#textobanner {
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	font-size: 20px;
+	padding-top: 100px;
+	font-style: italic;
+}
+
+#card {
+	width: 30%;
+	margin: 1%;
+	height: 100%;
+	background-color: black;
+	display: inline-block;
+	color: white;
+	font-family: arial;
+	text-align: center;
+	padding-bottom: 10%;
+}
+
+#icone_cena {
+	margin: 10%;
+	width: 80%;
+	height: auto;
+	position: relative;
+	padding-top: 80%;
+	border-radius: 50%;
+	background-image: url("cena.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 40%;
+}
+
+#icone_roman {
+	margin: 10%;
+	width: 80%;
+	height: auto;
+	position: relative;
+	padding-top: 80%;
+	border-radius: 50%;
+	background-image: url("roman.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 40%;
+}
+
+#icone_drew {
+	margin: 10%;
+	width: 80%;
+	height: auto;
+	position: relative;
+	padding-top: 80%;
+	border-radius: 50%;
+	background-image: url("drew.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 40%;
+}
+
+#form {
+	height: 100%;
+	width: 50%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 5%;
+	font-family: arial;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 6%;
+}
+
+#form_topo {
+	width: 100%;
+	text-align: center;
+}
+
+#textbox {
+	width: 98%;
+	height: 8%;
+	font-size: 20px;
+	padding-left: 2%;
+}
+
+#botao_salvar {
+	width: 40%;
+	margin-right: 30%;
+	margin-left: 30%;
+	height: 30px;
+	font-family: arial;
+	font-size: 20px;
+}
+
+#cabecalho {
+	color: white;
+	text-align: center;
+	font-family: arial;
+	font-style: italic;
+}
+
+footer {
+	background-color: #212020;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	padding-top: 40px;
+	color: white;
+	font-family: arial;
+	position: fixed;
+}
+
+@media only screen and (max-width: 590px) {
+	#opcao {
+		display: block;
+	}
+	#corpo {
+		margin-bottom: 5px;
+		height: 300px;
+	}
+	#corpo_meio {
+		height: 90%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		border-radius: 10px;
+	}
+	#cabecalho {
+		font-size: 20px;
+	}
+	#form {
+		width: 90%;
+		height: 100%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 1%;
+		margin-bottom: 150px;
+	}
+	#textbox {
+		width: 95%;
+	}
+	#card {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 150px;
+	}
+	footer {
+		font-size: 10px;
+	}
+	#corpo2 {
+		font-size: 15px;
+	}
+	#textobanner {
+		font-size: 10px;
+	}
+}
